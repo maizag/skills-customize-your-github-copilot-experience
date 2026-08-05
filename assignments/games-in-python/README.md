@@ -1,19 +1,37 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Desenvolver um jogo da forca em Python para praticar manipulação de strings, laços de repetição e condicionais. Ao final, o aluno deve conseguir controlar o fluxo completo de uma partida com vitória ou derrota.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar a lógica principal do jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie um programa que selecione uma palavra aleatória e permita ao jogador adivinhar letras, exibindo o progresso da palavra ao longo das tentativas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar uma palavra aleatória a partir de uma lista predefinida
+- Exibir a palavra oculta no formato com sublinhados (exemplo: `_ _ _ _ _`)
+- Solicitar uma letra por rodada e atualizar o estado da palavra
+- Mostrar quantas tentativas incorretas ainda restam
+- Encerrar a partida quando o jogador adivinhar a palavra ou as tentativas acabarem
+
+
+### 🛠️ Tratar entradas e finalizar a partida com feedback
+
+#### Descrição
+Adicione validações simples de entrada e mensagens finais para tornar a experiência do jogo mais clara para o usuário.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar apenas uma letra por vez como palpite
+- Informar quando a letra já tiver sido usada anteriormente
+- Exibir mensagem de vitória quando a palavra for completada
+- Exibir mensagem de derrota com a palavra correta quando as tentativas terminarem
+- Manter o código organizado e legível, com nomes de variáveis descritivos
