@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "maze-pathfinding-bfs-dfs",
+      "title": "Maze Pathfinding with BFS and DFS",
+      "description": "Implement and compare BFS and DFS to solve grid-based mazes and analyze path quality and search cost.",
+      "path": "assignments/maze-pathfinding-bfs-dfs",
+      "dueDate": "2026-08-12",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Maze",
+          "file": "sample-maze.txt",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }
